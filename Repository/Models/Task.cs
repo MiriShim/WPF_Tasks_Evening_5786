@@ -6,11 +6,8 @@ namespace Repository.Models;
 public partial class Task
 {
     public int TaskId { get; set; }
-    //    kjjkhjkhg
-    //    ,mjkjn
-    //    lkljk
 
-    public string Header1 { get; set; } = null!;
+    public string Header1221 { get; set; } = null!;
 
     public string? Description { get; set; }
 
