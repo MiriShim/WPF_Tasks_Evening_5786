@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPF_Tasks_Evening_5786.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Tasks_Evening_5786"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center" Margin="20" FlowDirection="RightToLeft"  >
+        <Label Content ="שם פרטי"/>
+        <TextBox x:Name="tbFirstName"/>
+        <Label Content ="שם משפחה"/>
+        <TextBox x:Name="tbLastName"/>
+        <Label Content ="אימייל"/>
+        <TextBox x:Name="tbEmail"/>
+        <Label Content ="תאריך לידה"/>
+        <DatePicker Name="dpBirthdate" />
+        <Label Content ="סיסמה"/>
+        <PasswordBox PasswordChar="#" Name="pass1"/>
+        <Label Content ="אימות סיסמה"/>
+        <PasswordBox PasswordChar="#" Name="pass2"/>
+
+        <Button  Name="btnSave" Click="SaveNewPerson" Content=" הרשם עכשיו"/>
+        <Button  Name="btnGoToList" Click="GoToListOfPerson" Content=" עבור לרשימה"/>
+
+    </StackPanel>
+</Window>
