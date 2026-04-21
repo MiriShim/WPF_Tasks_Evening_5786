@@ -7,7 +7,7 @@ public partial class Task
 {
     public int TaskId { get; set; }
 
-    public string Header { get; set; } = null!;
+    public string Header2 { get; set; } = null!;
 
     public string? Description { get; set; }
 
