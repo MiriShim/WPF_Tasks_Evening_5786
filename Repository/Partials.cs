@@ -8,5 +8,6 @@ namespace Repository.Models
 {
     public partial  class Task
     {
+        //
     }
 }
